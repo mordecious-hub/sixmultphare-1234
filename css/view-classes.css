@@ -1,0 +1,177 @@
+/* ==========================================
+   SIXMULTPHARE VIEW CLASSES
+========================================== */
+
+.dashboard{
+
+    padding:140px 8% 80px;
+
+}
+
+.dashboard h1{
+
+    text-align:center;
+
+    font-size:50px;
+
+    color:#ffffff;
+
+    margin-bottom:15px;
+
+}
+
+.dashboard p{
+
+    text-align:center;
+
+    font-size:22px;
+
+    color:#dddddd;
+
+    margin-bottom:50px;
+
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+/* ==========================
+   CLASS CARD
+========================== */
+
+.dashboard-card{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(20px);
+
+    padding:35px;
+
+    text-align:center;
+
+    color:#ffffff;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.30);
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#6C63FF;
+
+}
+
+.dashboard-card ion-icon{
+
+    font-size:80px;
+
+    color:#6C63FF;
+
+    margin-bottom:20px;
+
+}
+
+.dashboard-card h2{
+
+    font-size:28px;
+
+    margin-bottom:15px;
+
+}
+
+.dashboard-card p{
+
+    font-size:18px;
+
+    color:#dddddd;
+
+    margin-bottom:10px;
+
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    background:#6C63FF;
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#4E46E5;
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .dashboard{
+
+        padding:170px 20px 60px;
+
+    }
+
+    .dashboard h1{
+
+        font-size:36px;
+
+    }
+
+    .dashboard p{
+
+        font-size:18px;
+
+    }
+
+    .dashboard-card{
+
+        padding:25px;
+
+    }
+
+    .dashboard-card ion-icon{
+
+        font-size:65px;
+
+    }
+
+}
