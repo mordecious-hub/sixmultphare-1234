@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Teacher | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/add-teacher.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="person-add-outline"></ion-icon>
+
+<h2>Add Teacher</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="teachers.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Teachers
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="lesson-container">
+
+<h1>Register Teacher</h1>
+
+<p>Complete the form below to add a new teacher.</p>
+
+<div class="lesson-card">
+
+<form id="teacherForm">
+
+<label>Full Name</label>
+<input type="text" id="fullName" placeholder="Enter full name" required>
+
+<label>Email Address</label>
+<input type="email" id="email" placeholder="teacher@example.com" required>
+
+<label>Phone Number</label>
+<input type="tel" id="phone" placeholder="+260..." required>
+
+<label>Subject</label>
+<select id="subject" required>
+<option value="">Select Subject</option>
+<option>Mathematics</option>
+<option>English</option>
+<option>Biology</option>
+<option>Chemistry</option>
+<option>Physics</option>
+<option>Computer Studies</option>
+<option>Geography</option>
+<option>History</option>
+<option>Civic Education</option>
+</select>
+
+<label>Assigned Class</label>
+<select id="class" required>
+<option value="">Select Class</option>
+<option>Grade 8A</option>
+<option>Grade 8B</option>
+<option>Grade 9A</option>
+<option>Grade 10A</option>
+<option>Grade 11A</option>
+<option>Grade 12A</option>
+</select>
+
+<label>Password</label>
+<input type="password" id="password" placeholder="Create password" required>
+
+<button type="submit" class="btn">
+
+Create Teacher
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/add-teacher.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
