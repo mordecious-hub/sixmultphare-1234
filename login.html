@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Login | SixMultPhare Education</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+
+        <ion-icon name="school-outline"></ion-icon>
+
+        <h2>SixMultPhare</h2>
+
+    </div>
+
+    <nav class="navbar">
+
+        <a href="index.html">
+
+            <ion-icon name="home-outline"></ion-icon>
+
+            Home
+
+        </a>
+
+        <a href="register.html">
+
+            <ion-icon name="person-add-outline"></ion-icon>
+
+            Register
+
+        </a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="card" style="max-width:500px;width:100%;">
+
+        <ion-icon
+        name="person-circle-outline"></ion-icon>
+
+        <h2>
+
+            Student Login
+
+        </h2>
+
+        <p>
+
+            Sign in to continue learning.
+
+        </p>
+
+        <br>
+
+        <form id="loginForm">
+
+            <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            required>
+
+            <br><br>
+
+            <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required>
+
+            <br><br>
+
+            <button
+            type="submit"
+            class="btn">
+
+                <ion-icon
+                name="log-in-outline"></ion-icon>
+
+                Login
+
+            </button>
+
+        </form>
+
+        <br>
+
+        <p>
+
+            Don't have an account?
+
+            <a href="register.html">
+
+                Register Here
+
+            </a>
+
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>
+
+        © 2026 SixMultPhare Education
+
+    </h3>
+
+</footer>
+
+<script type="module"
+src="js/firebase.js"></script>
+
+<script type="module"
+src="js/auth.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
