@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Register Institution | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/dashboard.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="school-outline"></ion-icon>
+
+<h2>SixMultPhare</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+<a href="institutions.html">
+
+<ion-icon name="business-outline"></ion-icon>
+
+Institutions
+
+</a>
+
+<a href="index.html">
+
+<ion-icon name="home-outline"></ion-icon>
+
+Home
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="dashboard">
+
+<h1>Register Institution</h1>
+
+<p>Secondary Schools, Colleges and Universities can register here.</p>
+
+<div class="card" style="max-width:700px;margin:auto;">
+
+<form id="institutionForm">
+
+<input type="text" id="institutionName" placeholder="Institution Name" required>
+
+<input type="email" id="email" placeholder="Official Email" required>
+
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<select id="type" required>
+
+<option value="">Select Institution Type</option>
+
+<option value="Secondary School">Secondary School</option>
+
+<option value="College">College</option>
+
+<option value="University">University</option>
+
+</select>
+
+<input type="text" id="country" placeholder="Country" required>
+
+<input type="text" id="province" placeholder="Province / State" required>
+
+<input type="text" id="district" placeholder="District / City" required>
+
+<button class="btn" type="submit">
+
+<ion-icon name="send-outline"></ion-icon>
+
+Submit Registration
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/firebase.js"></script>
+<script type="module" src="js/institutions.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
