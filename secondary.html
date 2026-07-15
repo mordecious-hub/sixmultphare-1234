@@ -3,15 +3,17 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Secondary Schools | SixMultPhare Education</title>
+    <title>Secondary Schools | SixMultPhare Education</title>
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/dashboard.css">
 
 </head>
 
@@ -19,95 +21,85 @@
 
 <header class="header">
 
-<div class="logo">
+    <div class="logo">
 
-<ion-icon name="school-outline"></ion-icon>
+        <ion-icon name="school-outline"></ion-icon>
 
-<h2>SixMultPhare</h2>
+        <h2>SixMultPhare</h2>
 
-</div>
+    </div>
 
-<nav class="navbar">
+    <nav class="navbar">
 
-<a href="dashboard.html">
+        <a href="dashboard.html">
 
-<ion-icon name="grid-outline"></ion-icon>
+            <ion-icon name="grid-outline"></ion-icon>
 
-Dashboard
+            Dashboard
 
-</a>
+        </a>
 
-<a href="institutions.html">
+        <a href="institutions.html">
 
-<ion-icon name="business-outline"></ion-icon>
+            <ion-icon name="business-outline"></ion-icon>
 
-Institutions
+            Institutions
 
-</a>
+        </a>
 
-<a href="index.html">
+        <a href="index.html">
 
-<ion-icon name="home-outline"></ion-icon>
+            <ion-icon name="home-outline"></ion-icon>
 
-Home
+            Home
 
-</a>
+        </a>
 
-</nav>
+    </nav>
 
 </header>
 
 <section class="dashboard">
 
-<h1>
+    <h1>Secondary Schools</h1>
 
-Secondary Schools
+    <p>
 
-</h1>
+        Choose your secondary school to continue.
 
-<p>
+    </p>
 
-Choose your secondary school.
+    <div id="institutionList" class="dashboard-grid">
 
-</p>
+        <div class="dashboard-card">
 
-<div class="dashboard-grid">
+            <ion-icon name="reload-circle-outline"></ion-icon>
 
-<div class="dashboard-card">
+            <h2>Loading Schools...</h2>
 
-<ion-icon name="school-outline"></ion-icon>
+            <p>
 
-<h2>No Schools Yet</h2>
+                Please wait while we load approved schools.
 
-<p>
+            </p>
 
-Registered secondary schools will appear here after approval by the SixMultPhare Admin.
+        </div>
 
-</p>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 <footer>
 
-<h3>
+    <h3>
 
-© 2026 SixMultPhare Education
+        © 2026 SixMultPhare Education
 
-</h3>
-
-<p>
-
-Empowering Education Across Africa
-
-</p>
+    </h3>
 
 </footer>
 
-<script type="module" src="js/dashboard.js"></script>
+<script type="module" src="js/secondary.js"></script>
 
 <script type="module"
 src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
