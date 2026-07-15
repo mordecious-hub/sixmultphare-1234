@@ -1,3 +1,4 @@
+
 // ==========================================
 // SixMultPhare Education
 // Add Teacher
@@ -22,32 +23,30 @@ teacherForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     const fullName = document.getElementById("fullName").value.trim();
-
     const email = document.getElementById("email").value.trim();
-
     const phone = document.getElementById("phone").value.trim();
-
     const subject = document.getElementById("subject").value;
-
     const assignedClass = document.getElementById("class").value;
-
     const password = document.getElementById("password").value;
 
     try {
 
+        // Save the institution UID before creating the teacher
+        const institutionId = auth.currentUser.uid;
+
+        // Create teacher account
         const userCredential = await createUserWithEmailAndPassword(
-
             auth,
-
             email,
-
             password
-
         );
 
         const teacher = userCredential.user;
 
+        // Save teacher information
         await setDoc(doc(db, "teachers", teacher.uid), {
+
+            institutionId: institutionId,
 
             uid: teacher.uid,
 
