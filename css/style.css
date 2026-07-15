@@ -1,0 +1,318 @@
+/* ===================================
+   SIXMULTPHARE EDUCATION
+=================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#09091f,#17173d,#24246b);
+
+    color:#ffffff;
+
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.header{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 8%;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    background:rgba(10,10,30,.85);
+
+    backdrop-filter:blur(18px);
+
+    z-index:1000;
+
+}
+
+/* ==========================
+   LOGO
+========================== */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo ion-icon{
+
+    font-size:55px;
+
+    color:#6C63FF;
+
+}
+
+.logo h2{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+/* ==========================
+   NAVIGATION
+========================== */
+
+.navbar{
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+.navbar a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.navbar a:hover{
+
+    color:#6C63FF;
+
+}
+
+.navbar ion-icon{
+
+    font-size:30px;
+
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:140px 8% 80px;
+
+}
+
+.hero h1{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:24px;
+
+    color:#dddddd;
+
+    margin-bottom:40px;
+
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:18px 35px;
+
+    border-radius:15px;
+
+    text-decoration:none;
+
+    background:#6C63FF;
+
+    color:#ffffff;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.btn-outline{
+
+    background:transparent;
+
+    border:2px solid #6C63FF;
+
+}
+
+.btn ion-icon{
+
+    font-size:28px;
+
+}
+
+/* ==========================
+   INSTITUTIONS
+========================== */
+
+.institutions{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+    padding:80px 8%;
+
+}
+
+.card{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card ion-icon{
+
+    font-size:90px;
+
+    color:#6C63FF;
+
+    margin-bottom:20px;
+
+}
+
+.card h2{
+
+    font-size:34px;
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    font-size:20px;
+
+    color:#dddddd;
+
+    line-height:1.8;
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+
+    text-align:center;
+
+    padding:40px 20px;
+
+}
+
+footer h3{
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+footer p{
+
+    font-size:18px;
+
+    color:#cccccc;
+
+}
