@@ -1,0 +1,165 @@
+/* ==========================================
+   SIXMULTPHARE SUBJECTS PAGE
+========================================== */
+
+.dashboard{
+
+    padding:140px 8% 80px;
+
+}
+
+.dashboard h1{
+
+    font-size:50px;
+
+    text-align:center;
+
+    margin-bottom:15px;
+
+    color:#ffffff;
+
+}
+
+.dashboard p{
+
+    text-align:center;
+
+    font-size:22px;
+
+    color:#dddddd;
+
+    margin-bottom:50px;
+
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+/* ==========================
+   SUBJECT CARD
+========================== */
+
+.dashboard-card{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:#ffffff;
+
+    transition:.3s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.30);
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#6C63FF;
+
+    box-shadow:0 20px 45px rgba(108,99,255,.35);
+
+}
+
+/* ==========================
+   ICON
+========================== */
+
+.dashboard-card ion-icon{
+
+    font-size:85px;
+
+    color:#6C63FF;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================
+   TEXT
+========================== */
+
+.dashboard-card h2{
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+}
+
+.dashboard-card p{
+
+    font-size:18px;
+
+    color:#dddddd;
+
+    line-height:1.8;
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .dashboard{
+
+        padding:170px 20px 60px;
+
+    }
+
+    .dashboard h1{
+
+        font-size:36px;
+
+    }
+
+    .dashboard p{
+
+        font-size:18px;
+
+    }
+
+    .dashboard-card{
+
+        padding:30px;
+
+    }
+
+    .dashboard-card ion-icon{
+
+        font-size:70px;
+
+    }
+
+    .dashboard-card h2{
+
+        font-size:24px;
+
+    }
+
+}
