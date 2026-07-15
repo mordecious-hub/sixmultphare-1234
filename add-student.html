@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Student | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/add-student.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="person-add-outline"></ion-icon>
+
+<h2>Add Student</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="students.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Students
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="lesson-container">
+
+<h1>Register Student</h1>
+
+<p>Fill in the student's information below.</p>
+
+<div class="lesson-card">
+
+<form id="studentForm">
+
+<label>Full Name</label>
+<input type="text" id="fullName" placeholder="Enter full name" required>
+
+<label>Email Address</label>
+<input type="email" id="email" placeholder="student@example.com" required>
+
+<label>Phone Number</label>
+<input type="tel" id="phone" placeholder="+260..." required>
+
+<label>Date of Birth</label>
+<input type="date" id="dob" required>
+
+<label>Gender</label>
+<select id="gender" required>
+<option value="">Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<label>Grade</label>
+<select id="grade" required>
+<option value="">Select Grade</option>
+<option>Grade 8</option>
+<option>Grade 9</option>
+<option>Grade 10</option>
+<option>Grade 11</option>
+<option>Grade 12</option>
+</select>
+
+<label>Class</label>
+<select id="assignedClass" required>
+<option value="">Select Class</option>
+<option>Grade 8A</option>
+<option>Grade 8B</option>
+<option>Grade 9A</option>
+<option>Grade 10A</option>
+<option>Grade 11A</option>
+<option>Grade 12A</option>
+</select>
+
+<label>Password</label>
+<input type="password" id="password" placeholder="Create password" required>
+
+<button type="submit" class="btn">
+
+Register Student
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/add-student.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
