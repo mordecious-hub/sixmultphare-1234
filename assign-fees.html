@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Assign Fees | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/assign-fees.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="people-outline"></ion-icon>
+
+<h2>Assign Fees</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="fees.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Fees
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="lesson-container">
+
+<h1>Assign Fees to Students</h1>
+
+<p>Select a grade and assign the fee structure to all students.</p>
+
+<div class="lesson-card">
+
+<form id="assignFeesForm">
+
+<label>Academic Year</label>
+
+<input
+type="text"
+id="academicYear"
+placeholder="Example: 2026"
+required>
+
+<label>Grade</label>
+
+<select id="grade" required>
+
+<option value="">Select Grade</option>
+
+</select>
+
+<label>Fee Category</label>
+
+<select id="feeCategory" required>
+
+<option value="">Select Fee Category</option>
+
+<option value="School Fees">School Fees</option>
+
+<option value="Examination Fees">Examination Fees</option>
+
+<option value="Other Fees">Other Fees</option>
+
+</select>
+
+<button
+type="button"
+id="loadStudentsBtn"
+class="btn">
+
+Load Students
+
+</button>
+
+<div id="studentsContainer">
+
+<p>Select a grade and click <strong>Load Students</strong>.</p>
+
+</div>
+
+<button
+type="submit"
+class="btn">
+
+Assign Fees
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/assign-fees.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
