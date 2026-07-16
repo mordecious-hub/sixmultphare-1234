@@ -1,0 +1,171 @@
+/* ==========================================
+   SIXMULTPHARE SCHOOL PAYMENT DETAILS
+========================================== */
+
+.lesson-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:140px 8% 80px;
+
+}
+
+.lesson-container h1{
+
+    text-align:center;
+
+    font-size:46px;
+
+    color:#0F172A;
+
+    margin-bottom:15px;
+
+}
+
+.lesson-container p{
+
+    text-align:center;
+
+    font-size:20px;
+
+    color:#475569;
+
+    margin-bottom:40px;
+
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.lesson-card{
+
+    background:#FFFFFF;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+/* ==========================
+   FORM
+========================== */
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    color:#0F172A;
+
+    font-size:17px;
+
+    font-weight:600;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid #CBD5E1;
+
+    border-radius:10px;
+
+    background:#FFFFFF;
+
+    color:#0F172A;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+input:focus{
+
+    border-color:#2563EB;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+.btn{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#1D4ED8;
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .lesson-container{
+
+        padding:170px 20px 60px;
+
+    }
+
+    .lesson-container h1{
+
+        font-size:34px;
+
+    }
+
+    .lesson-container p{
+
+        font-size:18px;
+
+    }
+
+    .lesson-card{
+
+        padding:25px;
+
+    }
+
+}
