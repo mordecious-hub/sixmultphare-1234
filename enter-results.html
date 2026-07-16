@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Enter Results | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/enter-results.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="reader-outline"></ion-icon>
+
+<h2>Enter Examination Results</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="examinations.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Examinations
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="lesson-container">
+
+<h1>Enter Student Results</h1>
+
+<p>Select the examination and record student marks.</p>
+
+<div class="lesson-card">
+
+<form id="resultsForm">
+
+<label>Select Examination</label>
+
+<select id="examSelect" required>
+
+<option value="">Loading examinations...</option>
+
+</select>
+
+<label>Select Student</label>
+
+<select id="studentSelect" required>
+
+<option value="">Loading students...</option>
+
+</select>
+
+<label>Marks Obtained</label>
+
+<input
+type="number"
+id="marks"
+min="0"
+placeholder="Enter marks"
+required>
+
+<button type="submit" class="btn">
+
+Save Result
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/enter-results.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
