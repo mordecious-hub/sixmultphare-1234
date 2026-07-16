@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>View Assignments | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/view-assignments.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="documents-outline"></ion-icon>
+
+<h2>View Assignments</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="assignments.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Assignments
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="dashboard">
+
+<h1>Assignment List</h1>
+
+<p>Manage all assignments created for your institution.</p>
+
+<div class="lesson-card">
+
+<div class="filters">
+
+<input
+type="text"
+id="searchAssignment"
+placeholder="Search by title or subject...">
+
+<button
+id="searchBtn"
+class="btn">
+
+Search
+
+</button>
+
+</div>
+
+<div class="table-container">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+
+<th>Subject</th>
+
+<th>Grade</th>
+
+<th>Class</th>
+
+<th>Due Date</th>
+
+<th>Actions</th>
+
+</tr>
+
+</thead>
+
+<tbody id="assignmentsTable">
+
+<tr>
+
+<td colspan="6">
+
+Loading assignments...
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/view-assignments.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
