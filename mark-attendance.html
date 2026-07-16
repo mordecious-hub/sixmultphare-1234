@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mark Attendance | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/mark-attendance.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="checkmark-done-outline"></ion-icon>
+
+<h2>Mark Attendance</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="attendance.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Attendance
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="lesson-container">
+
+<h1>Student Attendance</h1>
+
+<p>Select a class and mark attendance for all students.</p>
+
+<div class="lesson-card">
+
+<form id="attendanceForm">
+
+<label>Attendance Date</label>
+
+<input
+type="date"
+id="attendanceDate"
+required>
+
+<label>Select Grade</label>
+
+<select id="grade" required>
+
+<option value="">Select Grade</option>
+
+<option>Grade 8</option>
+
+<option>Grade 9</option>
+
+<option>Grade 10</option>
+
+<option>Grade 11</option>
+
+<option>Grade 12</option>
+
+</select>
+
+<label>Select Class</label>
+
+<select id="assignedClass" required>
+
+<option value="">Select Class</option>
+
+<option>Grade 8A</option>
+
+<option>Grade 8B</option>
+
+<option>Grade 9A</option>
+
+<option>Grade 10A</option>
+
+<option>Grade 11A</option>
+
+<option>Grade 12A</option>
+
+</select>
+
+<div id="studentsContainer">
+
+<p>Select a class to load students.</p>
+
+</div>
+
+<button type="submit" class="btn">
+
+Save Attendance
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/mark-attendance.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
