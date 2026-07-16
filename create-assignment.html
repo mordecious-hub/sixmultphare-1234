@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Create Assignment | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/create-assignment.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="create-outline"></ion-icon>
+
+<h2>Create Assignment</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="assignments.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Assignments
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="lesson-container">
+
+<h1>Create New Assignment</h1>
+
+<p>Create an assignment for a selected class and subject.</p>
+
+<div class="lesson-card">
+
+<form id="assignmentForm">
+
+<label>Assignment Title</label>
+
+<input
+type="text"
+id="title"
+placeholder="Enter assignment title"
+required>
+
+<label>Subject</label>
+
+<select id="subject" required>
+
+<option value="">Select Subject</option>
+
+</select>
+
+<label>Grade</label>
+
+<select id="grade" required>
+
+<option value="">Select Grade</option>
+
+</select>
+
+<label>Class</label>
+
+<select id="assignedClass" required>
+
+<option value="">Select Class</option>
+
+</select>
+
+<label>Instructions</label>
+
+<textarea
+id="instructions"
+rows="6"
+placeholder="Write assignment instructions..."
+required></textarea>
+
+<label>Due Date</label>
+
+<input
+type="date"
+id="dueDate"
+required>
+
+<button type="submit" class="btn">
+
+Create Assignment
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/create-assignment.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
