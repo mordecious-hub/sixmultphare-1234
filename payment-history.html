@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Payment History | SixMultPhare Education</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/payment-history.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+<ion-icon name="time-outline"></ion-icon>
+
+<h2>Payment History</h2>
+
+</div>
+
+<nav class="navbar">
+
+<a href="fees.html">
+
+<ion-icon name="arrow-back-outline"></ion-icon>
+
+Fees
+
+</a>
+
+<a href="institution-dashboard.html">
+
+<ion-icon name="grid-outline"></ion-icon>
+
+Dashboard
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="dashboard">
+
+<h1>Payment History</h1>
+
+<p>View and search all student fee payments.</p>
+
+<div class="lesson-card">
+
+<div class="filters">
+
+<input
+type="text"
+id="searchPayment"
+placeholder="Search by student name or admission number">
+
+<select id="paymentMethod">
+
+<option value="">All Payment Methods</option>
+
+<option value="Cash">Cash</option>
+
+<option value="Bank Transfer">Bank Transfer</option>
+
+<option value="Mobile Money">Mobile Money</option>
+
+</select>
+
+<button
+id="searchBtn"
+class="btn">
+
+Search
+
+</button>
+
+</div>
+
+<div class="table-container">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Receipt No.</th>
+
+<th>Student</th>
+
+<th>Fee Category</th>
+
+<th>Amount Paid</th>
+
+<th>Payment Method</th>
+
+<th>Date</th>
+
+<th>Balance</th>
+
+</tr>
+
+</thead>
+
+<tbody id="paymentsTable">
+
+<tr>
+
+<td colspan="7">
+
+Loading payment history...
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 SixMultPhare Education</h3>
+
+</footer>
+
+<script type="module" src="js/payment-history.js"></script>
+
+<script type="module"
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
